@@ -1,0 +1,129 @@
+/*title of the cards*/
+.dsc{
+  text-align: center;
+  margin-top: 5%;
+
+
+}
+/*ordering content in the class container*/
+.container{
+  text-align: center;
+  height: 70%;
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+  padding: 0 0.9rem;
+
+}
+/*cards styling*/
+.row{
+  display: inline-flex;
+  
+  
+
+
+}
+
+.secondContainer{
+  height: 250px;
+  width: 440px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+@media only screen and (max-width: 991px) {
+    .secondContainer {
+        height: 200px;
+        width: 550px;
+
+    }
+}
+/*image */
+.profilePictureSimple{
+  width:120px;
+  height:120px;
+  border-radius: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  min-height: 120px;
+}
+
+@media only screen and (max-width: 991px) {
+    .profilePictureSimple {
+        width:120px;
+        height:100px;
+        border-radius: 150px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}
+
+.textContainerForSecond{
+  color: black;
+  margin-left: 199px;
+  margin-top: -103px;
+  font-size: 18px;
+  font-family: 'Alegreya', serif;
+  opacity: 0.9;
+
+}
+/*paragraphs styling*/
+.text{
+  text-align: center;
+  margin-top: 35px;
+  text-shadow: 0px 0px;
+  
+
+}
+/*buttons*/
+
+.checkBoxHide{
+  opacity: 0;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border-radius: 100px;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 30px 30px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* start of button color effects*/
+
+.buttonEffect {
+    background-color: cyan; 
+    color: black; 
+    border: 2px solid #000000;
+}
+
+.buttonEffect:hover {
+    background-color: #000000;
+    color: white;
+}
+/*end of button color effects*/
+
+
+/*btn positioning*/
+
+@media only screen and (max-width: 991px) {
+    .responsiveButtonLearn {
+        margin-left: 409px;
+        margin-top: -79px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .responsiveButtonJoin {
+        margin-left: 424px;
+        margin-top: -210px;
+    }
+}
+/*end of btn positioning*/
